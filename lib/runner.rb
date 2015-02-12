@@ -1,7 +1,7 @@
 module EZCoffee
   class Runner
     def self.run
-      `coffee -w -o js --compile src `
+      `open index.html && coffee -w -o js --compile src `
     end
   end
 end
