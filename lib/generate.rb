@@ -18,9 +18,8 @@ module EZCoffee
 
       # Make the directories
       FileUtils.mkdir @project
-      FileUtils.cd @project
-      FileUtils.mkdir "./src"
-      FileUtils.mkdir "./js"
+      FileUtils.mkdir "./#{@project}/src"
+      FileUtils.mkdir "./#{@project}/js"
 
       # Generate the coffee file
       FileUtils.touch project_coffee
