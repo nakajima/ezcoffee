@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ezcoffee'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.executables << 'ezcoffee'
   s.date        = '2015-02-11'
   s.summary     = "Generate basic coffeescript projects"
