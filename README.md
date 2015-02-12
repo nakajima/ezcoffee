@@ -18,6 +18,12 @@ Then edit files in `src/my-project.coffee`. They'll be compiled and written into
 
 It also includes jQuery automatically.
 
+#### Install
+
+```sh
+$ gem install ezcoffee
+```
+
 #### Why not write it in coffeescript?
 
 I don't know how.
