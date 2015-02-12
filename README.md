@@ -17,3 +17,7 @@ my-project
 Then edit files in `src/my-project.coffee`. They'll be compiled and written into `js/my-project.js` (which is included in `index.html`).
 
 It also includes jQuery automatically.
+
+#### Why not write it in coffeescript?
+
+I don't know how.
