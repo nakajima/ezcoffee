@@ -14,9 +14,7 @@ my-project
 
 `cd` into `my-project` and run `ezcoffee run`
 
-Then edit files in `src/my-project.coffee`. They'll be compiled and written into `js/my-project.js` (which is included in `index.html`).
-
-It also includes jQuery automatically.
+Then edit files in `src/my-project.coffee`. They'll be compiled and written into `js/my-project.js` (which is included in `index.html`). `index.html` also includes jQuery.
 
 #### Install
 
