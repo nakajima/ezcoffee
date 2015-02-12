@@ -1,6 +1,6 @@
 # ezcoffee
 
-Generates quick coffeescript projects for me. The directory looks like this:
+Generates quick coffeescript projects and compiles them. The directory looks like this:
 
 Run `ezcoffee generate my-project`. You'll get a directory that looks like this.
 
