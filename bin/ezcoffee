@@ -4,8 +4,8 @@ require_relative './../lib/generate'
 require_relative './../lib/runner'
 
 case ARGV.first
-when "generate" then EZCoffee::Generator.generate(ARGV[1])
-when "run"      then EZCoffee::Runner.run
+when "g", "generate" then EZCoffee::Generator.generate(ARGV[1])
+when "r", "run"      then EZCoffee::Runner.run
 else
   puts "Options:\ngenerate - generates a new project\nrun - runs the project"
   abort "Unknown command. Try generate or run."
